@@ -1,0 +1,319 @@
+
+body{
+    background-color: #3655F2;
+}
+/* 背景 */
+.search{
+    width: 7rem;
+    height:3.7rem;
+    background-color: #3655F2;
+    background-image:url("../images/组\ 313@2x.png");
+    background-size: 7.5rem 3.7rem;
+    position: relative;
+    margin: auto;
+}
+
+.search-icon{
+    width: 6.61rem;
+    height: 0.97rem;
+    /* background:white; */
+    border-radius: 56px;
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  
+   
+}
+.search-icon input{
+    width: 6.61rem;
+    height: 0.97rem;
+    /* background: white; */
+    font-size: 0.35rem;
+    border-radius: 56px;
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    outline:none;
+    border:none;
+    padding-left: 0.5rem !important;
+    z-index: -1;
+}
+.search-icon-btn{
+    height:0.4rem;
+    width: 0.4rem;
+    background-image: url('../images/搜索@2x.png');
+    background-size: 0.4rem 0.4rem;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: absolute;
+    right: 0.3rem;
+   margin-top:0.3rem;
+}
+.search-text{
+    /* border:solid red 1px; */
+    width: 100%;
+  }
+/* 政策列表 */
+.cut{
+    width: 6.7rem;
+    height:1.21rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #3655F2;
+    margin-top: 0.73rem;
+}
+.cut .cut-item-1,.cut-item-2,.cut-item-3 , .cut-item-4{
+    width:1.47rem;
+    height: 1.21rem;
+    background-size: 1.47rem 1.21rem;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+.cut .cut-item-1{
+    background-image:url("../images/组\ 274@2x.png");
+}
+.cut .cut-item-2{
+    background-image:url("../images/组\ 277@2x.png");
+}
+.cut .cut-item-3{
+    background-image:url("../images/组\ 276@2x.png");
+}
+.cut .cut-item-4{
+    background-image:url("../images/组\ 275@2x.png");
+}
+  a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    border: none;
+     font-size: 0.28rem;  
+     background: none;
+     opacity: 0;
+}
+ a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+/* 最新政策 */
+.news{
+    width: 7.5rem;
+    margin: 0 auto;
+    margin-top: 0.56rem;
+    display: flex;
+    /* border: solid red 1px; */
+}
+.news .news-content{
+    width:3.26rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:2.11rem ;
+    /* border: solid red 1px; */
+}
+.news .news-content .content-left{
+    width: 0.53rem;
+    height:0.11rem;
+    background-image: url('../images/组\ 292@2x.png');
+    background-size: 0.53rem 0.11rem;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* border:solid red 1px; */
+}
+.news .news-content .content-text{
+        /* width: 152px; */
+        height: 0.5rem;
+        font-size: 0.36rem;
+        font-family: PingFang SC;
+        font-weight: bold;
+        line-height: 0.5rem;
+        color: #FFFFFF;
+        letter-spacing: 3px;
+        opacity: 1;
+}
+.news .news-content .content-right{
+    width: 0.53rem;
+    height:0.11rem;
+    background-image: url('../images/组\ 292@2x.png');
+    transform: rotateY(180deg);
+    background-size: 0.53rem 0.11rem;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.news .news-save{
+    width: 1.18rem;
+    height: 0.62rem;
+    background-image: url('../images/组\ 331@2x.png');
+    background-size: 1.18rem 0.62rem;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+}
+/* 横条 */
+.banner{
+    width: 7.32rem;
+    height: 0.64rem;
+    /* border:  solid red 1px; */
+    background-image: url('../images/组\ 286@2x.png');
+    background-size: 7.32rem 0.64rem;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+/* 政策列表 */
+.bottom-list{
+    width: 6.61rem;
+    /* height: 7.2rem; */
+    background: rgba(255,255,255,0.3900);
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+    margin-top:-0.25rem;
+    margin-bottom: 0.64rem;
+    padding-bottom: 0.2rem;
+    padding-top:0.2rem;
+}
+/* 底部列表 */
+.bottom-list-item-1{
+    width: 5.99rem;
+     /* height: 3.04rem; */ 
+    background-color: white;
+    opacity: 1;
+    border-radius: 20px;
+    margin:0.2rem auto;
+    padding:0.3rem;
+    padding-top: 0.01rem;
+    /* border:solid red 1px;  */
+}
+.list-item-title{
+    display: flex;
+    justify-content: space-between; 
+    /* border:solid red 1px; */ 
+    /* width: 1.9rem; */
+    height: 0.42rem;
+    margin-bottom: 0.1rem;
+}
+.item-title-content{
+    display: flex;
+}
+.item-title-content .item-title-content-l{
+    /* width: 1.28rem; */
+    height: 0.42rem;
+    font-size: 0.3rem;
+    font-family: PingFang SC;
+    font-weight: bold;
+    /* line-height: 0.38rem; */
+    color: #80CF7A;
+    letter-spacing: 0.05rem;
+   
+}
+.item-title-content-r{
+    /* width: 0.75rem; */
+    height: 0.4rem;
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #3E5DF8;
+    letter-spacing: 0.1rem;
+    background-color: #DFE4FF;
+    padding: 0.2rem;
+    text-align: center;
+    line-height: 0rem;
+    margin-left: 0.2rem;
+    border-radius: 0.06rem;
+    /* border:solid red 1px; */
+}
+.item-title-date{
+    /* width: 1.73rem; */
+    height: 0.37rem;
+    font-size: 0.26rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 0.38rem;
+    color: #999999;
+    letter-spacing: 0.01rem;
+    opacity: 1;
+}
+.list-item-text{
+     width: 5.26rem; 
+    height: 1.19rem;
+    font-size: 0.28rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 0.38rem;
+    color: #333333;
+    letter-spacing: 0.02rem;
+    text-indent: 2em;
+    padding-bottom: 0.2rem;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin-bottom: 0.1rem;
+    border: solid white 1px;
+}
+
+.list-item-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.item-bottom-content{
+    display: flex;
+
+}
+.item-bottom-content .item-bottom-content-l{
+    /* width: 3.04rem; */
+    height: 0.37rem;
+    font-size: 0.26rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 0.38rem;
+    color: #B7B7B7;
+    letter-spacing: 0.01rem;
+    opacity: 1;
+}
+.item-bottom-content-r{
+    /* width: 3.04rem; */
+    height: 0.37rem;
+    font-size: 0.26rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 0.38rem;
+    color: #3E5DF8;
+    letter-spacing: 0.01rem;
+    color: #647DF9;
+    margin-left: 0.2rem;
+}
+
+.list-item-bottom-icon{
+    width:0.46rem;
+    height:0.43rem;
+    background-image: url('../images/收藏@2x.png');
+    background-repeat: no-repeat;
+    background-size: 0.46rem 0.43rem;
+   
+    object-fit: cover;
+    margin-right: 0.1rem;
+}
+/* 添加收藏的css */
+.list-item-bottom-icon-add{
+    width:0.46rem;
+    height:0.43rem; 
+    background-image: url('../images/组\ 291@2x.png');
+    background-size: 0.46rem 0.43rem;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-right: 0.1rem;
+}

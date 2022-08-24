@@ -1,0 +1,235 @@
+body {
+  background-color: #3655F2;
+}
+
+.search-content {
+  background-color: #E8F0FF;
+}
+
+.save-banner {
+  /* height:99px; */
+  width: 7.5rem;
+  /* border:solid red 1px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.35rem;
+
+}
+
+.news-text {
+  margin: 0 0.3rem;
+  width: 1.35rem;
+  height: 0.45rem;
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  line-height: 0.38rem;
+  color: #3655F2;
+  letter-spacing: 0.01rem;
+}
+
+.left-icon, .right-icon {
+  display: flex;
+  height: 0.2rem;
+  width: 0.7rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.left-icon-l {
+  width: 0.46rem;
+  height: 0;
+  border: 0.02rem solid #3655F2;
+  background: #3655F2;
+}
+
+.icon-span-r {
+  width: 0.11rem;
+  height: 0.11rem;
+  background: #3655F2;
+  border-radius: 50%;
+}
+
+.right-icon {
+  margin-right: 0.3rem;
+}
+
+.right-icon-l {
+  width: 0.11rem;
+  height: 0.11rem;
+  background: #3655F2;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.right-span-r {
+  width: 0.46rem;
+  height: 0;
+  border: 0.02rem solid #3655F2;
+  background: #3655F2;
+  opacity: 1;
+}
+
+/* 表单 */
+.forms {
+  width: 7.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.5rem;
+  /* height: 7.38rem; */
+}
+
+.forms .key-words {
+  width: 6.7rem;
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.2rem auto;
+  /* border: solid red 1px; */
+}
+
+.words-text {
+  /* width: 0.88rem; */
+  height: 0.4rem;
+  font-size: 0.28rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.38rem;
+  color: #666666;
+  letter-spacing: 0.1rem;
+  opacity: 1;
+}
+
+.words-input {
+  box-sizing: border-box;
+  /* width: 5.44rem; */
+  height: 0.9rem;
+  /* border: 1px solid #B4C7EC; */
+  border-radius: 0.11rem;
+  display: flex;
+}
+input{
+  color: #666666;
+}
+.words-input input {
+  width: 5.44rem;
+  height: 0.9rem;
+  font-size: 0.28rem;
+  opacity: 1;
+  border-radius: 0.11rem;
+  padding-left: 0.5rem !important;
+  outline: none;
+  border: none;
+}
+
+.words-input input::-webkit-input-placeholder {
+  color: #666666;
+}
+
+.time-input .date-time-input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-radius: 0.2rem;
+}
+
+/*placehodle颜色  */
+.words-input input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #666666;
+}
+
+.words-input input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #666666;
+}
+
+.words-input input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #666666;
+}
+
+select::-ms-expand {
+  display: none;
+}
+/*将默认的select选择框样式清除*/
+.info-select {
+  
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+}
+
+/* 类型 */
+select {
+  box-sizing: border-box;
+  width: 5.44rem;
+  height: 0.9rem;
+  font-size: 0.28rem;
+  border-radius: 0.11rem;
+  display: flex;
+  outline: none;
+  border: 1px solid #B4C7EC;
+  color: #666666;
+  padding-left: 0.5rem !important;
+  background-color: white;
+}
+
+/* 查询按钮 */
+.search-button {
+  width: 6.71rem;
+  height: 0.91rem;
+  background: #3655F2;
+  border-radius: 58px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  width: 1.35rem;
+  height: 0.45rem;
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.38rem;
+  color: #FFFFFF;
+
+}
+
+.search-list {
+  background-color: #F5F5F5;
+  width: 7.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.search-text{
+  /* border:solid red 1px; */
+  width: 100%;
+}
+.time-input {
+  width: 5.44rem;
+  height: 0.9rem;
+  font-size: 0.28rem;
+  opacity: 1;
+  border-radius: 0.11rem;
+  padding-left: 0.5rem !important;
+  outline: none;
+  border: 1px solid #B4C7EC;
+  background: white;
+}
+.date-time-input{
+  font-size: 0.3rem;
+  
+}
+/* 时间特殊处理 */
+.date_ctrl {
+  background-color: white;
+}
+
+
+

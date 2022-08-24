@@ -1,0 +1,153 @@
+body{
+    background-color:  #3655f2;;
+}
+.detail-list {
+  background: #f5f5f5;
+  /* border:solid 1px  red;  */
+  width: 7.5rem;
+  padding: 20px auto;
+  overflow-x: hidden;
+}
+.detail-list-content {
+  margin: 0.25rem;
+  margin-left: 0.4rem;
+  padding-bottom: 0.2rem;
+  width: 6.71rem;
+  opacity: 1;
+  border-radius: 0.2rem;
+  background-color: white;
+  
+}
+.list-content-title {
+  height: 0.69rem;
+  margin: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.03rem solid #EFEFEF; 
+}
+.left-title {
+  width: 1.6rem;
+  height: 0.42rem;
+  font-size: 0.3rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  line-height: 0.4rem;
+  color: #3655f2;
+
+}
+.right-icon {
+  width: 0.45rem;
+  height: 0.43rem;
+  background-image: url("../images/收藏@2x.png");
+  background-size: 0.43rem ;
+  background-repeat: no-repeat;
+}
+.list-content-type {
+  display: flex;
+  margin: 0.2rem;
+  padding: 0;
+}
+.span-left {
+  /* width: 1.27rem; */
+  height: 0.4rem;
+  font-size: 0.28rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.38rem;
+  color: #a6b6e2;
+  letter-spacing: 0.02rem;
+  opacity: 1;
+  /* border: solid red 1px; */
+}
+.span-right ,.span-date{
+  width: 1.4rem;
+  height: 0.4rem;
+  font-size: 0.28rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.38rem;
+  color: #333333;
+  letter-spacing: 0.02rem;
+  opacity: 1;
+  /* border: solid red 1px; */
+}
+.span-date{
+  width:200px ;
+}
+.type-right {
+  margin-left: 0.7rem;
+}
+
+.list-content-duixiang {
+  display: flex;
+  margin: 0.2rem;
+  /* height: 0.4rem; */
+  font-size: 0.28rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.38rem;
+  color: #a6b6e2;
+  letter-spacing: 0.02rem;
+  opacity: 1;
+}
+.duixiang-left {
+  width: 2.6rem;
+}
+.span-text {
+  color: #333333;
+}
+.duixiang-left span {
+  width: 4.48rem;
+  height: 0.78rem;
+  font-size: 0.8rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.38rem;
+  color: #333333;
+  letter-spacing: 0.02rem;
+  opacity: 1;
+}
+.zhuti {
+  margin: 0.2rem;
+  margin-top: 0.3rem;
+}
+.yaodian {
+  text-indent: 2em;
+  width: 6.14rem;
+  font-size: 0.29rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.4rem;
+  color: #333333;
+  letter-spacing: 2px;
+  opacity: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  margin-bottom: 0.1rem;
+}
+.chuchu {
+  width: 6.07rem;
+  font-size: 0.29rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.4rem;
+  text-decoration: underline;
+  letter-spacing: 0.02rem;
+  opacity: 1;
+}
+.chuchu a {
+  color: #3655f2;
+}
+.bottom-text {
+  margin: auto;
+  width: 1rem;
+  height: 0.4rem;
+  font-size: 0.28rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 0.4rem;
+  color: #707070;
+}

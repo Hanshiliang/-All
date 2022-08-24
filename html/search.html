@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>政策查找</title>
+  <!-- <script src="../js/vue.js"></script> -->
+  <script src="../js/commen.js"></script>
+  <script src="../js/datePicker.js"></script>
+  <link type="text/css" rel="styleSheet" href="../css/commen.css">
+  <link type="text/css" rel="styleSheet" href="../css/index.css" />
+  <link type="text/css" rel="styleSheet" href="../css/search.css" />
+  <link rel="stylesheet" href="../font-icon/iconfont.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 头部 -->
+    <div class="header">
+      <div class="left-header">
+        <i class="iconfont icon-zuojiantou icon"><a href="./index.html">goback</a></i>
+      </div>
+      <div class="header-text ">政策查询</div>
+    </div>
+    <!-- 大图 -->
+    <div class="bg"></div>
+    <!-- 政策查询 -->
+    <div class="search-content">
+      <div class="save-banner">
+        <div class="left-icon">
+          <div class="left-icon-l"></div>
+          <div class="icon-span-r"></div>
+        </div>
+        <div class="news-text">政策查询</div>
+        <div class="right-icon">
+          <div class="right-icon-l"></div>
+          <div class="right-span-r"></div>
+        </div>
+      </div>
+      <!-- 表单 -->
+      <div class="forms">
+        <div class="key-words">
+          <span class="words-text"><label>关键字</label></span>
+          <span class="words-input"><input style="border: 1px solid #B4C7EC;" type="text" placeholder="输入关键字" value="" /></span>
+        </div>
+        <!-- 级别 -->
+        <div class="key-words">
+          <span class="words-text" ><label>类型</label></span>
+          <div class="words-input">
+            <select class="info-select">
+              <option value="selectType" selected="selected">选择类型</option>
+              <option value="shuifei">税费减免</option>
+              <option value="zujing">租金减免</option>
+              <option value="feiyong">费用减免</option>
+              <option value="butie">补贴稳定</option>
+            </select>
+          </div>
+        </div>
+        <!-- 级别 -->
+        <div class="key-words">
+          <span class="words-text"><label>级别</label></span>
+          <div class="words-input">
+            <select class="info-select">
+              <option value="type" selected="selected">选择级别</option>
+              <option value="guojia">国家级</option>
+              <option value="shiji">市级</option>
+              <option value="quji">区级</option>
+            </select>
+          </div>
+        </div>
+        <!-- 地区-->
+        <div class="key-words">
+          <span class="words-text">地区</span>
+          <div class="words-input">
+            <select class="info-select">
+              <option value="selectArea" selected="selected">选择地区</option>
+              <option value="all">全国</option>
+              <option value="shanghaishi">上海市</option>
+              <option value="pudong">浦东区</option>
+              <option value="huangpu">黄埔区</option>
+              <option value="jingan">静安区</option>
+              <option value="xuhuai">徐汇区</option>
+              <option value="changning">长宁区</option>
+              <option value="putuo">普陀区</option>
+              <option value="yangpu">杨浦区</option>
+              <option value="minhang">闵行区</option>
+              <option value="jinshan">金山区</option>
+              <option value="qingpu">青浦区</option>
+              <option value="baoshan">宝山区</option>
+              <option value="jiading">嘉定区</option>
+            </select></div>
+        </div>
+        <!-- 时间 -->
+        <div class="key-words">
+          <span class="words-text">时间</span>
+          <div class="time-input">
+            <input  class="date-time-input" id="demo1" placeholder="请选择时间" value="" >
+          </div>
+        </div>
+        <!-- 查询 -->
+        <div class="search-button">
+          <div class="button-text">政策查询</div>
+        </div>
+      </div>
+      <!-- 底部列表 -->
+      <div class="search-list">
+        <div class="bottom-list-item-1" style="width:6.71rem ; padding-top: 20px;">
+          <div class="list-item-title">
+            <div class="item-title-content">
+              <span class="item-title-content-l">税收减免</span>
+              <span class="item-title-content-r">国家级</span>
+            </div>
+            <div class="item-title-date">2022-09-03</div>
+          </div>
+          <div class="list-item-text search-text" >
+            各地区、各部门要全面落实小规模纳税人免征增值税、实施留抵退税，以及缓缴养老、失业、工伤保险等政策
+          </div>
+          <div class="list-item-bottom">
+            <div class="item-bottom-content">
+              <span class="item-bottom-content-l">适用对象:</span>
+              <span class="item-bottom-content-r">区内承租主体</span>
+            </div>
+             <!-- 收藏icon图标 -->
+            <div class="list-item-bottom-icon"></div>
+          </div>
+        </div>
+
+        <div class="bottom-list-item-1" style="width:6.71rem ;padding-top: 20px;">
+          <div class="list-item-title">
+            <div class="item-title-content">
+              <span class="item-title-content-l" style="color: #FA759B;">费用减免</span>
+              <span class="item-title-content-r">国家级</span>
+            </div>
+            <div class="item-title-date">2022-09-03</div>
+          </div>
+          <div class="list-item-text search-text">
+            各地区、各部门要全面落实小规模纳税人免征增值税、实施留抵退税，以及缓缴养老、失业、工伤保险等政策
+          </div>
+          <div class="list-item-bottom">
+            <div class="item-bottom-content">
+              <span class="item-bottom-content-l">适用对象:</span>
+              <span class="item-bottom-content-r">区内承租主体</span>
+            </div>
+            <!-- 收藏icon图标 -->
+            <div class="list-item-bottom-icon-add"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  var calendar = new datePicker()
+  console.log(calendar)
+  calendar.init({
+    // 按钮选择器，用于触发弹出插件
+    trigger: '#demo1',
+   
+    type: 'date',
+    minDate: '2020-1-1',
+    maxDate: '2025-12-31',
+    onSubmit: function () {
+      // 确认时触发事件
+      var theSelectData = calendar.value
+    },
+    onClose: function () {
+      // 取消时触发事件
+    }
+  })
+</script>
+</html>

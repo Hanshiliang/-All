@@ -1,0 +1,52 @@
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+/* 头部 */
+.header{
+    width: 7.5rem;
+    height:1.88rem;
+    background: #3655F2;
+    font-size: 0.41rem;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    }
+     .left-header{
+        margin-top:1.02rem;
+        position:absolute;
+        left:0.31rem;
+        height: 0.57rem;
+       
+    }
+    .header-text{
+        width: 1.7rem;
+        height: 0.57rem;
+        font-size: 0.41rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        line-height: 0.57rem;
+        color: #FFFFFF;
+        margin-top:1.02rem;
+    } 
+    /* 大图 */
+    .bg{
+        width:7.5rem;
+        height: 2.84rem;
+        background-image: url('../images/search/组\ 330@2x.png');
+        background-size: 7.5rem 2.84rem;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        margin-top:-0.001rem;
+        
+    }
+.icon{
+    color: white;
+  font-size: 0.6rem !important;
+}
