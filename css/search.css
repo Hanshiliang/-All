@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-color: #3655F2;
+=======
+  background-color: #F5F5F5;
+>>>>>>> dc29756 (补充加载中功能)
 }
 
 .search-content {
@@ -229,7 +233,14 @@ select {
 /* 时间特殊处理 */
 .date_ctrl {
   background-color: white;
+<<<<<<< HEAD
 }
 
 
 
+=======
+  
+}
+
+
+>>>>>>> dc29756 (补充加载中功能)

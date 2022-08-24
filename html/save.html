@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>政策收藏</title>
+<<<<<<< HEAD
+=======
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+>>>>>>> dc29756 (补充加载中功能)
     <script src="../js/commen.js"></script>
     <link type="text/css" rel="styleSheet" href="../css/commen.css">
     <link type="text/css" rel="styleSheet"  href="../css/index.css" />
     <link type="text/css" rel="styleSheet"  href="../css/save.css" />
     <link rel="stylesheet" href="../font-icon/iconfont.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="../css/loading.css">
+>>>>>>> dc29756 (补充加载中功能)
 </head>
 <body>
     <div id="app">
@@ -116,6 +124,36 @@
         </div>
      </div>
     </div>
+<<<<<<< HEAD
 </div>
+=======
+    <div class="loading" style="display: none;">
+        <div class="container">
+            <div class="rotate">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                
+            </div>
+            <div class="loading-text">加载中...</div>
+        </div>    
+    </div>
+</div>
+<script>
+        
+    $(window).scroll(function () {
+        var docHeight = $(document).height(); 
+        var winHeight = $(window).height(); 
+        var scrollTop = $(window).scrollTop(); 
+    
+        if (scrollTop + winHeight + 50 > docHeight) {
+        $('.loading').css('display','block')
+        }
+    });
+
+</script>
+>>>>>>> dc29756 (补充加载中功能)
 </body>
 </html>
